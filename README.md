@@ -27,13 +27,14 @@ The main objective is to analyze past financial data and forecast future financi
 
 ## Project Structure
 
+```text
 Financial-Forecasting/
 │
 ├── data/
 │   └── financial_data.csv
 │
 ├── excel/
-│   ├── financial_analysis.xlsx
+│   ├── financial_analysis.xlsx.csv
 │   └── financial_forecast_2027.xlsx
 │
 ├── python/
@@ -43,7 +44,7 @@ Financial-Forecasting/
 │   └── financial_forecast.png
 │
 └── README.md
-
+```
 ## Forecasting Method
 
 Historical revenue and expense data is analyzed using Python. Growth rates are used to estimate future revenue, expenses, and profit for the next 12 months.
