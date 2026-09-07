@@ -22,6 +22,7 @@ This project uses historical financial data to predict future revenue, expenses,
 
 ## Project Structure
 
+```text
 Financial-Forecasting/
 │
 ├── data/
@@ -38,6 +39,7 @@ Financial-Forecasting/
 │   └── financial_forecast.png
 │
 └── README.md
+```
 
 ## Forecast
 
