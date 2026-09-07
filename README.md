@@ -4,6 +4,10 @@
 
 This project uses historical financial data to predict future revenue, expenses, and profit.
 
+## Objective
+
+The main objective is to analyze past financial data and forecast future financial performance.
+
 ## Tools Used
 
 - Python
@@ -19,17 +23,17 @@ This project uses historical financial data to predict future revenue, expenses,
 - Profit margin analysis
 - 12-month financial forecasting
 - Forecast visualization
+- Excel-based financial analysis
 
 ## Project Structure
 
-```text
 Financial-Forecasting/
 │
 ├── data/
 │   └── financial_data.csv
 │
 ├── excel/
-│   ├── financial_analysis.xlsx.csv
+│   ├── financial_analysis.xlsx
 │   └── financial_forecast_2027.xlsx
 │
 ├── python/
@@ -39,12 +43,21 @@ Financial-Forecasting/
 │   └── financial_forecast.png
 │
 └── README.md
-```
 
-## Forecast
+## Forecasting Method
 
-The Python model forecasts Revenue, Expenses, and Profit for the next 12 months (2027).
+Historical revenue and expense data is analyzed using Python. Growth rates are used to estimate future revenue, expenses, and profit for the next 12 months.
 
-## Outcome
+## Output
 
-The project provides forecast reports and visual projections to understand future financial growth.
+The project provides:
+
+- Forecast revenue
+- Forecast expenses
+- Forecast profit
+- Financial trend chart
+- Excel forecast report
+
+## Conclusion
+
+This project demonstrates how Python and Excel can be used together for financial data analysis and forecasting.
